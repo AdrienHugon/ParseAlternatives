@@ -14,6 +14,15 @@ As you may noticed [Parse](http://blog.parse.com/announcements/moving-on) will b
 - Background Jobs
 - Crash Report
 
+###Index
+- [General purpose providers](#general-purpose-providers)
+- [Push notification providers](#push-notification-providers)
+- [Analytics providers](#analytics-providers)
+- [Crash Report providers](#crash-report-providers)
+- [Backends for Game developers](#backends-for-game-developers)
+- [Open-Source Solutions](#open-source-solutions)
+- [Parse Server providers](#parse-server-providers)
+
 The real-time providers are marked with :zap: icon.
 
 ###General purpose providers
@@ -34,7 +43,7 @@ A next-gen MBaaS, Arrow consists of two primary components, Builder and Cloud. A
 Integrated mobile backend services (MBaaS), so you can focus on your apps, not infrastructure, including database, push, and server code.
 (*[discussion](https://github.com/relatedcode/ParseAlternatives/issues/27)*)
 
-- **[Apps Panel](http://www.appspanel.com/)**
+- **[Apps Panel](http://www.appspanel.com)**
 Apps Panel is an ISV which created an “as a Service” 360° Mobile Backend (MBaaS) for apps/IoT. This innovative middleware allows a global management of apps/IoT (content, marketing, analytics, monitoring…) with a comprehensive Web interface, and an API development/Gateways to interact dynamically with corporate information systems.
 
 - **[Appzio](https://appzio.com)** :zap:
@@ -214,6 +223,10 @@ Make your product better by measuring actions, instead of page views. Mixpanel g
 Taplytics is a fully integrated mobile A/B testing, push notification, and analytics platform providing the tools you need to optimize your mobile app. Taplytics supports transactional, geo, event and behavioral triggered push notifications, all of which can be a/b tested and optimized for success.
 (*[discussion](https://github.com/relatedcode/ParseAlternatives/issues/118)*)
 
+- **[WebEngage](https://webengage.com)** :zap: 
+Multi-channel User Engagement Platform. Communicate via In-App Messages, Push Notifications, Web Messages, Emails, Text Messages in real-time. Understand your users across all channels. Real-time event analytics across all channels and platforms. Identify trends & patterns based on User Interests, Lifecycle, Behavior, Geo-location and much more.
+(*[discussion](https://github.com/relatedcode/ParseAlternatives/issues/136)*)
+
 ###Crash Report providers
 
 - **[Crashlytics](https://fabric.io/kits/ios/crashlytics)** :zap:
@@ -302,6 +315,12 @@ Marlin is a  fast REST API library built on top of redis server. Its has no spec
 
 ###Parse Server providers
 
+- **[AWS](https://aws.amazon.com)**
+AWS is Amazon's cloud infrastructure service. It supports running Node.js apps both on VMs and docker container as well as running Mongo and aws own DynamoDB.
+
+- **[Azure](https://azure.microsoft.com)**
+Microsoft cloud service. Supports both Node.js and Mongo via MongoLab.
+
 - **[Google Cloud Platform](https://cloud.google.com/nodejs/resources/frameworks/parse-server)**
 You can migrate your app from the hosted Parse backend to Google App Engine by running Node.js on App Engine Managed VMs and using MongoDB preinstalled on a Compute Engine VM instance or by using MongoLab.
 (*[discussion](https://github.com/relatedcode/ParseAlternatives/issues/47)*)
@@ -309,3 +328,9 @@ You can migrate your app from the hosted Parse backend to Google App Engine by r
 - **[IBM Bluemix](https://developer.ibm.com/clouddataservices/2016/01/29/parse-on-ibm-bluemix)**
 Bluemix is IBM's platform service, built with Cloud Foundry and running on IBM SoftLayer. It supports the Node.js runtime required for Parse Server. Bluemix also comes with many database options, including MongoDB from IBM's Compose.io acquisition. Link includes migration instructions.
 (*[discussion](https://github.com/relatedcode/ParseAlternatives/issues/48)*)
+
+- **[RAX](https://www.rackspace.com)**
+Cloud provider with support for it's own cloud, aws and azure. Supports running Node.js in both vms and docker containers.
+
+- **[Triton](https://www.joyent.com)**
+Joyents elastic container infrastructure backed by bare metal. It allows you to run Node.js apps and Mongo and provide a lot of tools for production debugging of Node.js apps.
